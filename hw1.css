@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Times;
+   padding: 5px;
+   background: #dddddd;
+}
+
+/* Header/Blog Title */
+/* Style the header */
+.header {
+   background-color: #ffffff;
+   padding:50px;
+   text-align: left;
+   background-color: 3;
+}
+
+.name{
+    
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    display: left;
+    font-size: 12px;
+
+    
+}
+.nav{
+    float: right;
+    color:#cccccc;
+    font-size: 20px;
+    padding: 12px;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+   float: left;
+   display: block;
+   color: #ffffff;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #dddddd;
+   color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {  
+   float: center;
+   width: 80%;
+}
+
+/* Right column */
+.rightcolumn {
+   float: center;
+   width: 70%;
+   background-color: #dddddd;
+   padding-left: 20px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Fake image */
+.fakeimg {
+   background-color: #dddddd;
+   width: 100%;
+   padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #ffffff;
+   padding: 50px;
+   margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/* Footer */
+.footer {
+   padding:5px;
+   text-align: center;
+   background: #666666;
+   
+ 
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background: #4aaaa5;
+}
+.responsive{
+    padding:5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Responsive layout - when the screen is less than 960px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 960px) {
+   .leftcolumn, .rightcolumn {  
+       width: 100%;
+       padding:20px 20px;
+   }
+}
+
+
